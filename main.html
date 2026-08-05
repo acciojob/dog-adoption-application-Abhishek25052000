@@ -8,24 +8,24 @@
 	<body>
 		<form action="" method="get">
 			<label>Name</label>
-			<input type="text" name="name" placeholder="Name">
+			<input type="text" id="name" placeholder="Name">
 			<br> <br>
 			<label>Phone Number</label>
-			<input type="number" name="phone" placeholder="Phone Number">
+			<input type="number" id="phone" placeholder="Phone Number">
 			<br> <br>
 			<label>Address</label>
-			<input type="text" name="address" placeholder="Address">
+			<input type="text" id="address" placeholder="Address">
 		     <br> <br>
 			<label for="livedWithDog">Have you ever lived with a Dog before?</label>
-			<input type="checkbox">
+			<input type="checkbox" id="checkbox" value="box">
 			<br> <br>
-			<select name="dogBreeds[]" multiple>
+			<select id="multiselect" multiple>
 				<option>German Shepherd</option>
 				<option>Bulldog</option>
 				<option>Labrador Retriever</option>
 			</select>
 			<br><br>
-        <input type="submit" value="Submit">	
+        <input type="submit" id="submit" value="Submit">	
 		</form>
 	</body>
 </html>
